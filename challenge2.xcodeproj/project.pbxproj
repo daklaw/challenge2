@@ -19,6 +19,14 @@
 		C57C079D18BC42620029BC8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57C078518BC42620029BC8C /* UIKit.framework */; };
 		C57C07A518BC42620029BC8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C57C07A318BC42620029BC8C /* InfoPlist.strings */; };
 		C57C07A718BC42620029BC8C /* challenge2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C07A618BC42620029BC8C /* challenge2Tests.m */; };
+		C57C07B318BC42A00029BC8C /* HeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C07B118BC42A00029BC8C /* HeartViewController.m */; };
+		C57C07B418BC42A00029BC8C /* HeartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57C07B218BC42A00029BC8C /* HeartViewController.xib */; };
+		C57C07B818BC4BF10029BC8C /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C07B618BC4BF10029BC8C /* TouchViewController.m */; };
+		C57C07B918BC4BF10029BC8C /* TouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57C07B718BC4BF10029BC8C /* TouchViewController.xib */; };
+		C57C07BD18BC543C0029BC8C /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C07BB18BC543C0029BC8C /* RedViewController.m */; };
+		C57C07BE18BC543C0029BC8C /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57C07BC18BC543C0029BC8C /* RedViewController.xib */; };
+		C57C07C218BC544D0029BC8C /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C07C018BC544D0029BC8C /* BlueViewController.m */; };
+		C57C07C318BC544D0029BC8C /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57C07C118BC544D0029BC8C /* BlueViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,18 @@
 		C57C07A218BC42620029BC8C /* challenge2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "challenge2Tests-Info.plist"; sourceTree = "<group>"; };
 		C57C07A418BC42620029BC8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C57C07A618BC42620029BC8C /* challenge2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = challenge2Tests.m; sourceTree = "<group>"; };
+		C57C07B018BC42A00029BC8C /* HeartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartViewController.h; sourceTree = "<group>"; };
+		C57C07B118BC42A00029BC8C /* HeartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartViewController.m; sourceTree = "<group>"; };
+		C57C07B218BC42A00029BC8C /* HeartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeartViewController.xib; sourceTree = "<group>"; };
+		C57C07B518BC4BF10029BC8C /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		C57C07B618BC4BF10029BC8C /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
+		C57C07B718BC4BF10029BC8C /* TouchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchViewController.xib; sourceTree = "<group>"; };
+		C57C07BA18BC543C0029BC8C /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		C57C07BB18BC543C0029BC8C /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		C57C07BC18BC543C0029BC8C /* RedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
+		C57C07BF18BC544D0029BC8C /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		C57C07C018BC544D0029BC8C /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		C57C07C118BC544D0029BC8C /* BlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +131,18 @@
 				C57C079118BC42620029BC8C /* AppDelegate.m */,
 				C57C079318BC42620029BC8C /* Images.xcassets */,
 				C57C078818BC42620029BC8C /* Supporting Files */,
+				C57C07B018BC42A00029BC8C /* HeartViewController.h */,
+				C57C07B118BC42A00029BC8C /* HeartViewController.m */,
+				C57C07B218BC42A00029BC8C /* HeartViewController.xib */,
+				C57C07B518BC4BF10029BC8C /* TouchViewController.h */,
+				C57C07B618BC4BF10029BC8C /* TouchViewController.m */,
+				C57C07B718BC4BF10029BC8C /* TouchViewController.xib */,
+				C57C07BA18BC543C0029BC8C /* RedViewController.h */,
+				C57C07BB18BC543C0029BC8C /* RedViewController.m */,
+				C57C07BC18BC543C0029BC8C /* RedViewController.xib */,
+				C57C07BF18BC544D0029BC8C /* BlueViewController.h */,
+				C57C07C018BC544D0029BC8C /* BlueViewController.m */,
+				C57C07C118BC544D0029BC8C /* BlueViewController.xib */,
 			);
 			path = challenge2;
 			sourceTree = "<group>";
@@ -219,7 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57C07C318BC544D0029BC8C /* BlueViewController.xib in Resources */,
+				C57C07B418BC42A00029BC8C /* HeartViewController.xib in Resources */,
+				C57C07BE18BC543C0029BC8C /* RedViewController.xib in Resources */,
 				C57C078C18BC42620029BC8C /* InfoPlist.strings in Resources */,
+				C57C07B918BC4BF10029BC8C /* TouchViewController.xib in Resources */,
 				C57C079418BC42620029BC8C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +276,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57C079218BC42620029BC8C /* AppDelegate.m in Sources */,
+				C57C07B318BC42A00029BC8C /* HeartViewController.m in Sources */,
+				C57C07C218BC544D0029BC8C /* BlueViewController.m in Sources */,
+				C57C07B818BC4BF10029BC8C /* TouchViewController.m in Sources */,
 				C57C078E18BC42620029BC8C /* main.m in Sources */,
+				C57C07BD18BC543C0029BC8C /* RedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
